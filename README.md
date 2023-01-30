@@ -1,3 +1,3 @@
-Student Name: Mohammad Chowdhury
-Class: Full Stack Developement
-Assignment 1
+Student Name: Mohammad Chowdhury<br>
+Class: Full Stack Developement<br>
+Assignment 1<br>
