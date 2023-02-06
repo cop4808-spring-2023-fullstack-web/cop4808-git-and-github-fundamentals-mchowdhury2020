@@ -42,6 +42,7 @@ function clickButton() {
                 inputSign(displayValue);
                 updateDisplay();
             }
+            //implemented new functions start
             else if(buttons[i].classList.contains('squared')) {
                 squares(displayValue);
                 updateDisplay();
@@ -53,7 +54,7 @@ function clickButton() {
                 updateDisplay();
             } else if(buttons[i].classList.contains('ceiling')) {
                 ceil(displayValue);
-                updateDisplay();
+                updateDisplay();//end implement new functions
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -196,7 +197,7 @@ function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
 function squares(num) {
-    return displayValue=num*num;
+    return displayValue=((num*num).toFixed(9));
 }//added the squaring function
 function sqrt(num) {
     return displayValue= Math.sqrt(num).toFixed(9);
