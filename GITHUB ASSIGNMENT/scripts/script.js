@@ -45,6 +45,9 @@ function clickButton() {
             else if(buttons[i].classList.contains('squared')) {
                 squares(displayValue);
                 updateDisplay();
+            } else if(buttons[i].classList.contains('sqrt')) {
+                sqrt(displayValue);
+                updateDisplay();
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -189,3 +192,6 @@ function roundAccurately(num, places) {
 function squares(num) {
     return displayValue=num*num;
 }//added the squaring function
+function sqrt(num) {
+    return displayValue= Math.sqrt(num).toFixed(9);
+}//added the square root function
