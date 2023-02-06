@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
     gap: 2px;
 }
 
@@ -107,4 +107,28 @@ button {
 
 .percent:active {
     background-color: rgb(123, 189, 255);
+}
+.squared{
+    background-color: rebeccapurple;
+}
+.sqrt{
+    background-color: rebeccapurple;
+}
+.log{
+    background-color: rebeccapurple;
+}
+.ceiling{
+    background-color: rebeccapurple;
+}
+.squared:active{
+    background-color: rgba(102, 51, 153, 0.427);
+}
+.sqrt:active{
+    background-color: rgba(102, 51, 153, 0.427);;
+}
+.log:active{
+    background-color: rgba(102, 51, 153, 0.427);;
+}
+.ceiling:active{
+    background-color: rgba(102, 51, 153, 0.427);;
 }
