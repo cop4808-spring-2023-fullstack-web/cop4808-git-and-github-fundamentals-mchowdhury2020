@@ -48,6 +48,12 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sqrt')) {
                 sqrt(displayValue);
                 updateDisplay();
+            } else if(buttons[i].classList.contains('log')) {
+                log(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('ceiling')) {
+                ceil(displayValue);
+                updateDisplay();
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -195,3 +201,9 @@ function squares(num) {
 function sqrt(num) {
     return displayValue= Math.sqrt(num).toFixed(9);
 }//added the square root function
+function log(num) {
+    return displayValue= Math.log10(num).toFixed(9);
+}//added the log function
+function ceil(num) {
+    return displayValue= Math.ceil(num);
+}//added the ceiling function
