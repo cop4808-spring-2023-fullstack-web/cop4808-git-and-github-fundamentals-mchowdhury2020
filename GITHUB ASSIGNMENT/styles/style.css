@@ -110,15 +110,19 @@ button {
 }
 .squared{
     background-color: rebeccapurple;
+    font-weight: bold;
 }
 .sqrt{
     background-color: rebeccapurple;
+    font-weight: bold;
 }
 .log{
     background-color: rebeccapurple;
+    font-weight: bold;
 }
 .ceiling{
     background-color: rebeccapurple;
+    font-weight: bold;
 }
 .squared:active{
     background-color: rgba(102, 51, 153, 0.427);
