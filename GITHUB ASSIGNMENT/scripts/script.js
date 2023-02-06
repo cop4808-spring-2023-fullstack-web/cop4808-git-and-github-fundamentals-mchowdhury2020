@@ -44,8 +44,8 @@ function clickButton() {
             }
             //implemented new functions start
             else if(buttons[i].classList.contains('squared')) {
-                squares(displayValue);
-                updateDisplay();
+                squares(displayValue); // once buttonis clicked calls function and that function returns a value
+                updateDisplay();//shows the value on the display
             } else if(buttons[i].classList.contains('sqrt')) {
                 sqrt(displayValue);
                 updateDisplay();
@@ -200,11 +200,11 @@ function squares(num) {
     return displayValue=((num*num).toFixed(9));
 }//added the squaring function
 function sqrt(num) {
-    return displayValue= Math.sqrt(num).toFixed(9);
+    return displayValue= Math.sqrt(num).toFixed(9);//used math library function to return value
 }//added the square root function
 function log(num) {
-    return displayValue= Math.log10(num).toFixed(9);
+    return displayValue= Math.log10(num).toFixed(9);//used math library function to return value
 }//added the log function
 function ceil(num) {
-    return displayValue= Math.ceil(num);
+    return displayValue= Math.ceil(num);//used math library function to return value
 }//added the ceiling function
