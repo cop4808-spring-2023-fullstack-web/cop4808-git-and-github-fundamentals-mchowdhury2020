@@ -47,14 +47,15 @@ function clickButton() {
                 squares(displayValue); // once buttonis clicked calls function and that function returns a value
                 updateDisplay();//shows the value on the display
             } else if(buttons[i].classList.contains('sqrt')) {
-                sqrt(displayValue);
-                updateDisplay();
+                sqrt(displayValue);// once buttonis clicked calls function and that function returns a value
+                updateDisplay();//shows the value on the display
             } else if(buttons[i].classList.contains('log')) {
-                log(displayValue);
-                updateDisplay();
+                log(displayValue);// once buttonis clicked calls function and that function returns a value
+                updateDisplay();//shows the value on the display
             } else if(buttons[i].classList.contains('ceiling')) {
-                ceil(displayValue);
-                updateDisplay();//end implement new functions
+                ceil(displayValue);// once buttonis clicked calls function and that function returns a value
+                updateDisplay();//shows the value on the display
+                //end implement new functions
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
